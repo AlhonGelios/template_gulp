@@ -1,0 +1,18 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "overrides": [{
+    "files": [ "src/**/*.js" ],
+    "extends": ["standard", "airbnb-base/legacy"],
+
+    "rules": {
+      "indent": ["error", 4],
+      "no-console": "warn",
+      "no-tabs": "off",
+      "quotes": ["error", "single"],
+      "padded-blocks": ["error", "never"],
+      "no-param-reassign":  ["error", { "props": false }]
+  }}]
+}

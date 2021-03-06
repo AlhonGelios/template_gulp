@@ -1,0 +1,42 @@
+@import '../../local_modules/normalize.css/normalize';
+
+@import '../common/fonts';
+
+@import 'utils/variables';
+
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+svg {
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
