@@ -1,0 +1,8 @@
+mixin svg(id, classes) 
+    svg(class=classes)
+        use(xlink:href=('./img/symbol/sprite.svg#' + id))
+
+mixin webp(src, type, classes)
+    picture(class=classes)
+        source(type="image/webp" srcset=src + '.webp')
+        img(src=src + '.' + type, alt=src)
